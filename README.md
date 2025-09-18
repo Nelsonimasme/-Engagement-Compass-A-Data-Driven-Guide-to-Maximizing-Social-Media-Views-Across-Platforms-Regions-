@@ -171,7 +171,7 @@ Specifically, the project aims to:
 
 
 
-## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW**
+### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW**
 
 SELECT Platform, 
 ROUND(AVG(Views)) As Avg_Highest_views,
@@ -199,7 +199,7 @@ ORDER BY Avg_Highest_views DESC
 
 
 
-## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT LIKES**
+### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT LIKES**
 
 ```SQL
 
@@ -217,7 +217,7 @@ ORDER BY Avg_Highest_likes DESC
 
 
 
-## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT SHARES**
+### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT SHARES**
 
 ```SQL
 
@@ -233,7 +233,7 @@ ORDER BY Avg_Highest_shares DESC
 <img width="324" height="193" alt="platform_with_high_eng_shares" src="https://github.com/user-attachments/assets/4ffe7611-546d-431a-b496-78c25b76c7fc" />
 
 
-## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT COMMENTS**
+### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT COMMENTS**
 
 ```SQL
 
@@ -249,6 +249,158 @@ ORDER BY Avg_Highest_comments DESC
 <img width="312" height="175" alt="platform_with_high_eng_comments" src="https://github.com/user-attachments/assets/c4afaf4c-4702-4c4a-adfb-8fa4fbffacd5" />
 
 
+
+### **CONTENT_TYPE WITH THE MOST VIEWS**
+
+```SQL
+
+SELECT Content_Type, 
+      SUM(Views)  AS Most_views,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`  
+
+GROUP BY Content_Type
+ORDER BY  Most_views DESC
+
+```
+<img width="287" height="207" alt="Content_most_views" src="https://github.com/user-attachments/assets/3633c2b3-1a6f-4288-ab98-db984ab59bb8" />
+
+
+
+### **CONTENT_TYPE WITH THE MOST LIKES**
+
+```SQL
+
+SELECT Content_Type, 
+      SUM(Likes)  AS Most_likes,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`  
+
+GROUP BY Content_Type
+ORDER BY  Most_likes DESC
+
+```
+<img width="293" height="171" alt="Content_most_likes" src="https://github.com/user-attachments/assets/a6b97456-a365-4e18-95f0-68b023afd0a7" />
+
+
+
+### **CONTENT_TYPE WITH THE MOST SHARES**
+
+```SQL
+
+SELECT Content_Type, 
+      SUM(Shares)  AS Most_shares,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`  
+
+GROUP BY Content_Type
+ORDER BY  Most_shares DESC
+
+```
+<img width="256" height="196" alt="content_most_shares" src="https://github.com/user-attachments/assets/5f3203db-185d-4239-abe9-e7bfd07dc6df" />
+
+
+
+### **REGION WITH THE MOST ENGAGEGING LEVEL ON VIEWS**
+
+```SQL
+
+SELECT Region,
+      SUM(Views) AS Region_views
+      
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`  
+
+GROUP BY Region
+ORDER BY  Region_views DESC
+
+```
+<img width="254" height="220" alt="Region_most_view" src="https://github.com/user-attachments/assets/4dcd0acc-0ba9-4083-8855-ccf96a22c888" />
+
+
+
+
+### **SPECIFIC HASHTAGS THAT HAS THE MOST ENGAGEMENT LEVEL ON VIEWS**
+
+```SQL
+
+SELECT Hashtag,
+      SUM(Views) AS Hashtag_views
+      
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`  
+
+GROUP BY Hashtag
+ORDER BY  Hashtag_views DESC
+
+```
+<img width="259" height="236" alt="HASHTAG_VIEWS" src="https://github.com/user-attachments/assets/f14b0bdd-d15b-46d4-977d-2766cfb8b90f" />
+
+
+
+### **THE MONTH WITH THE NOST ENGAGEMENT LEVEL ON VIEWS**
+
+```SQL
+
+SELECT FORMAT_DATE("%B", DATE(Post_Date)) AS Month_Name,
+  COUNT(Engagement_Level) AS High_engagement
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`
+
+GROUP BY Month_Name
+ORDER BY High_engagement DESC
+
+```
+<img width="272" height="236" alt="mont_with_most_engaging_level" src="https://github.com/user-attachments/assets/790a9db1-e7c6-4511-bd1a-f3048e122c37" />
+
+
+
+### **THE DAY WITH THE NOST ENGAGEMENT LEVEL ON VIEWS**
+
+```SQL
+
+SELECT FORMAT_DATETIME("%A",Post_date) AS Day_of_d_week,  SUM(Views) AS Engagement_level_views, 
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend`
+
+GROUP BY Day_of_d_week
+ORDER BY Engagement_level_views DESC
+
+```
+
+
+### **SIMILARITIES OF TOP PERFORMING POST**
+
+```SQL
+
+SELECT 
+    Platform,
+    Region, 
+    Content_Type, 
+    Hashtag, 
+    COUNT(*) AS Post_Count,
+    ROUND(AVG(Views)) AS Avg_Views,
+    ROUND(AVG(Likes)) AS Avg_Likes,
+    ROUND(AVG(Shares)) AS Avg_Shares,
+    ROUND(AVG(Comments)) AS Avg_Comments
+FROM 
+    `nelson-1-project.social_media_trend.Vira_social_media_trend`
+WHERE 
+    Likes > 300000 
+    OR Shares > 90000 
+    OR Views > 400000 
+    OR Comments > 40000
+GROUP BY 
+    Platform, Region, Content_Type, Hashtag
+ORDER BY 
+    Avg_Views DESC, 
+    Avg_Likes DESC, 
+    Avg_Shares DESC, 
+    Avg_Comments DESC
+
+```
+
+<img width="520" height="217" alt="SIMI" src="https://github.com/user-attachments/assets/ed6becff-cfd4-44ac-8eff-8c509f246ea1" />
 
 
 
