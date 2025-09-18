@@ -169,9 +169,19 @@ Specifically, the project aims to:
 
 ---
 
-```SQL
 
-    -- PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW
+
+## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW**
+
+SELECT Platform, 
+ROUND(AVG(Views)) As Avg_Highest_views,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend` 
+
+GROUP BY Platform
+ORDER BY Avg_Highest_views DESC
+
+```SQL
 
 SELECT Platform, 
 ROUND(AVG(Views)) As Avg_Highest_views,
@@ -185,6 +195,60 @@ ORDER BY Avg_Highest_views DESC
 ```
 
 <img width="315" height="149" alt="platform_with_high_engagement_view" src="https://github.com/user-attachments/assets/446ada0e-d7e8-492e-b7d1-995fe4aaf6e1" />
+
+
+
+
+## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT LIKES**
+
+```SQL
+
+SELECT Platform, 
+ROUND(AVG(Likes)) As Avg_Highest_likes,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend` 
+
+GROUP BY Platform
+ORDER BY Avg_Highest_likes DESC
+
+```
+
+<img width="339" height="188" alt="platform_with_high_eng_likes" src="https://github.com/user-attachments/assets/a8c9a864-851a-4102-8ee1-68f1e53c7546" />
+
+
+
+## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT SHARES**
+
+```SQL
+
+SELECT Platform, 
+ROUND(AVG(Shares)) As Avg_Highest_shares,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend` 
+
+GROUP BY Platform
+ORDER BY Avg_Highest_shares DESC
+
+```
+<img width="324" height="193" alt="platform_with_high_eng_shares" src="https://github.com/user-attachments/assets/4ffe7611-546d-431a-b496-78c25b76c7fc" />
+
+
+## **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT COMMENTS**
+
+```SQL
+
+SELECT Platform, 
+ROUND(AVG(Comments)) As Avg_Highest_comments,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend` 
+
+GROUP BY Platform
+ORDER BY Avg_Highest_comments DESC
+
+```
+<img width="312" height="175" alt="platform_with_high_eng_comments" src="https://github.com/user-attachments/assets/c4afaf4c-4702-4c4a-adfb-8fa4fbffacd5" />
+
+
 
 
 
