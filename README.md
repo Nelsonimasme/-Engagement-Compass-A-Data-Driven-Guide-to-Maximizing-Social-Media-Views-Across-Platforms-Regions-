@@ -133,8 +133,6 @@ Here’s a clean **Data Source** section you can use in your project report or s
 ---
 
 
-Perfect 👍 here’s a professional **Data Limitations** section you can add after your Data Source:
-
 ---
 
 ### **Data Limitations**
@@ -170,5 +168,22 @@ Specifically, the project aims to:
 7. **Provide data-driven recommendations** for improving social media strategies across platforms.
 
 ---
+
+```SQL
+
+    -- PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW
+
+SELECT Platform, 
+ROUND(AVG(Views)) As Avg_Highest_views,
+
+FROM `nelson-1-project.social_media_trend.Vira_social_media_trend` 
+
+GROUP BY Platform
+ORDER BY Avg_Highest_views DESC
+
+
+```
+
+
 
 
