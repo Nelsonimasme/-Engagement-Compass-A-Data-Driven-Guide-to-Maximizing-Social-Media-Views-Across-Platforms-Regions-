@@ -184,6 +184,7 @@ ORDER BY Avg_Highest_views DESC
 
 ```
 
+<img width="315" height="149" alt="platform_with_high_engagement_view" src="https://github.com/user-attachments/assets/446ada0e-d7e8-492e-b7d1-995fe4aaf6e1" />
 
 
 
