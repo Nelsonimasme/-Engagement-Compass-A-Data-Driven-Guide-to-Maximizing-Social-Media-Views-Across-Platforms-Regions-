@@ -170,8 +170,10 @@ Specifically, the project aims to:
 ---
 
 
+### **DATA AGGREGATION**
 
-### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW**
+
+ **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT VIEW**
 
 SELECT Platform, 
 ROUND(AVG(Views)) As Avg_Highest_views,
@@ -199,7 +201,7 @@ ORDER BY Avg_Highest_views DESC
 
 
 
-### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT LIKES**
+**PLATFORM WITH THE HIGHEST AVG ENGAGEMENT LIKES**
 
 ```SQL
 
@@ -217,7 +219,7 @@ ORDER BY Avg_Highest_likes DESC
 
 
 
-### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT SHARES**
+ **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT SHARES**
 
 ```SQL
 
@@ -233,7 +235,7 @@ ORDER BY Avg_Highest_shares DESC
 <img width="324" height="193" alt="platform_with_high_eng_shares" src="https://github.com/user-attachments/assets/4ffe7611-546d-431a-b496-78c25b76c7fc" />
 
 
-### **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT COMMENTS**
+ **PLATFORM WITH THE HIGHEST AVG ENGAGEMENT COMMENTS**
 
 ```SQL
 
@@ -250,7 +252,7 @@ ORDER BY Avg_Highest_comments DESC
 
 
 
-### **CONTENT_TYPE WITH THE MOST VIEWS**
+ **CONTENT_TYPE WITH THE MOST VIEWS**
 
 ```SQL
 
@@ -267,7 +269,7 @@ ORDER BY  Most_views DESC
 
 
 
-### **CONTENT_TYPE WITH THE MOST LIKES**
+ **CONTENT_TYPE WITH THE MOST LIKES**
 
 ```SQL
 
@@ -284,7 +286,7 @@ ORDER BY  Most_likes DESC
 
 
 
-### **CONTENT_TYPE WITH THE MOST SHARES**
+ **CONTENT_TYPE WITH THE MOST SHARES**
 
 ```SQL
 
@@ -301,7 +303,7 @@ ORDER BY  Most_shares DESC
 
 
 
-### **REGION WITH THE MOST ENGAGEGING LEVEL ON VIEWS**
+ **REGION WITH THE MOST ENGAGEGING LEVEL ON VIEWS**
 
 ```SQL
 
@@ -320,7 +322,7 @@ ORDER BY  Region_views DESC
 
 
 
-### **SPECIFIC HASHTAGS THAT HAS THE MOST ENGAGEMENT LEVEL ON VIEWS**
+ **SPECIFIC HASHTAGS THAT HAS THE MOST ENGAGEMENT LEVEL ON VIEWS**
 
 ```SQL
 
@@ -338,7 +340,7 @@ ORDER BY  Hashtag_views DESC
 
 
 
-### **THE MONTH WITH THE NOST ENGAGEMENT LEVEL ON VIEWS**
+ **THE MONTH WITH THE MOST ENGAGEMENT LEVEL ON VIEWS**
 
 ```SQL
 
@@ -355,7 +357,7 @@ ORDER BY High_engagement DESC
 
 
 
-### **THE DAY WITH THE NOST ENGAGEMENT LEVEL ON VIEWS**
+ **THE DAY WITH THE MOST ENGAGEMENT LEVEL ON VIEWS**
 
 ```SQL
 
@@ -369,7 +371,7 @@ ORDER BY Engagement_level_views DESC
 ```
 
 
-### **SIMILARITIES OF TOP PERFORMING POST**
+ **SIMILARITIES OF TOP PERFORMING POST**
 
 ```SQL
 
@@ -401,6 +403,68 @@ ORDER BY
 ```
 
 <img width="520" height="217" alt="SIMI" src="https://github.com/user-attachments/assets/ed6becff-cfd4-44ac-8eff-8c509f246ea1" />
+
+<img width="505" height="192" alt="SIMI 2" src="https://github.com/user-attachments/assets/47128f40-837c-4212-a32f-54435ec46d1c" />
+
+
+### **DATA VISUALIZATION**
+
+
+**Platform With Highest Average Engagement On Views**
+
+<img width="960" height="356" alt="view_platform" src="https://github.com/user-attachments/assets/18232248-9a4b-4b07-9ae1-65e20190b172" />
+
+
+**Platform With Highest Average Engagement On Likes**
+
+<img width="960" height="358" alt="Like_platform" src="https://github.com/user-attachments/assets/a32c4c5b-1389-4835-a01a-5e4e1b8ccb8b" />
+
+
+**Platform With Highest Average Engagement On Shares**
+
+<img width="960" height="358" alt="shares_plaform" src="https://github.com/user-attachments/assets/657679da-f688-4159-a194-92c827c23e77" />
+
+
+**Platform With Highest Average Engagement On Comments**
+
+<img width="960" height="349" alt="Comments_platform" src="https://github.com/user-attachments/assets/73c9937d-c938-43f9-9541-4932c805fa67" />
+
+
+
+**Content Type With The Highest Engagement On Views**
+
+<img width="960" height="356" alt="Content_type_Views" src="https://github.com/user-attachments/assets/d2ab5f12-26b0-4db3-ad1a-5192590d3b5c" />
+
+**Content Type With The Highest Engagement On Likes**
+<img width="960" height="359" alt="content_type_likes" src="https://github.com/user-attachments/assets/b551f37f-664e-4ae1-afba-dbdc1e11538f" />
+
+
+**Content Type With The Highest Engagement On Shares**
+<img width="959" height="364" alt="Content_type_shares" src="https://github.com/user-attachments/assets/19622529-3a76-49c0-9ab9-9eb0566defd1" />
+
+
+**Region With The Most Engagement Level Views**
+<img width="960" height="351" alt="Region_views" src="https://github.com/user-attachments/assets/753ef2b9-3b26-4492-89a3-53251605119c" />
+
+
+**THE SPECIFIC HASHTAGS THAT LEADS THE HIGHEST ENGAGEMENT (VIEWS)**
+<img width="960" height="353" alt="#Hashtag_view" src="https://github.com/user-attachments/assets/18a3746d-f68c-4c52-8c67-74d931fad519" />
+
+
+
+**Visualizing The Month With The Most Engagement Level On Views**
+<img width="960" height="356" alt="months" src="https://github.com/user-attachments/assets/6ecf21de-beef-45cf-8903-d3ba27d8ffb4" />
+
+
+**Visualizing The DAY With The Most Engagement Level On Views**
+<img width="959" height="354" alt="Days" src="https://github.com/user-attachments/assets/3dc6ecbf-a8ea-48f3-8b97-56ec663ef086" />
+
+
+**Visualizinf Similarities Between Top Performing Post**
+<img width="957" height="370" alt="simlarities 1" src="https://github.com/user-attachments/assets/09f74eb5-917e-4a63-bc1a-a2265ea20b5d" />
+<img width="956" height="363" alt="similarities 2" src="https://github.com/user-attachments/assets/1ce84732-2910-42ba-94a1-e61f2a9db857" />
+<img width="956" height="366" alt="similarities 3" src="https://github.com/user-attachments/assets/1c6ea79d-3a64-405d-a681-4ff9a6651cfb" />
+
 
 
 
