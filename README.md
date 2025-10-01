@@ -468,3 +468,171 @@ ORDER BY
 
 
 
+
+
+## **Key Findings**
+
+### 1. Platform Performance
+
+* **YouTube** leads in **average views (2,545,648)**, **likes (258,314)**, and **comments (25,321)**, showing it is the strongest platform for both reach and active engagement.
+* **TikTok** dominates in **shares (51,468)**, highlighting its strength in content virality.
+* **Instagram** and **Twitter** consistently perform closely behind YouTube and TikTok, but Instagram shows higher average **likes** and **shares**, indicating strong community interactions.
+
+---
+
+### 2. Content-Type Performance
+
+* **Reels** are the top content format for both **views (2.13B)** and **shares (43.2M)**, confirming their dominance in short-form, highly engaging content.
+* **Posts** attract the most **likes (215.6M)**, showing users’ preference for traditional, static or mixed content when it comes to appreciation.
+* **Live Streams** consistently perform well across views, likes, and shares—highlighting strong real-time audience interaction.
+* **Shorts and Tweets** lag behind in overall engagement compared to Reels and Posts, but still capture meaningful niches.
+
+---
+
+### 3. Regional Trends
+
+* **USA (1.75B views)** is the top region for engagement, followed by **Brazil (1.64B)** and the **UK (1.61B)**.
+* **Emerging regions** like **India (1.51B)** and **Australia (1.46B)** are also strong performers, indicating global spread of viral content beyond traditional Western markets.
+* **Germany and Japan** round out the top 8, reflecting mature digital markets.
+
+---
+
+### 4. Hashtag Performance
+
+* **#Fitness (1.39B views)** and **#Education (1.33B views)** are the top hashtags, showing high audience demand for health and learning content.
+* Other high-performing hashtags include **#Music, #Challenge, #Comedy, #Tech, #Dance, #Gaming, #Fashion, and #Viral**—covering entertainment, lifestyle, and trending niches.
+* This demonstrates that both **informative** and **entertaining** content drive viral engagement.
+
+---
+
+### 5. Time-Based Engagement Patterns
+
+* **Months:** Engagement peaks in **May (445 posts)**, followed by **October (433)** and **June (432)**. Seasonal spikes suggest higher activity in mid-year and early Q4.
+* **Days of the Week:** **Thursday** records the highest engagement (1.87B views), followed by **Sunday** and **Friday**, suggesting users are most active toward the weekend.
+
+---
+
+### 6. Similarities Among Top-Performing Posts
+
+* High-performing posts often share these traits:
+
+  * **Regions:** Germany, UK, Brazil, USA, Australia, and India dominate top viral posts.
+  * **Content Types:** Reels, Live Streams, Shorts, and Posts are most common.
+  * **Hashtags:** Frequent winners include **#Gaming, #Music, #Fitness, #Education, #Tech, #Comedy, #Fashion, and #Viral**.
+* **Engagement Metrics:**
+
+  * Top posts average **3M–4M views**.
+  * Likes typically range between **200K–330K**.
+  * Shares average **45K–65K**.
+  * Comments are consistently above **20K**.
+* The combination of **popular hashtags, interactive formats, and strong regional audiences** drives these results.
+
+---
+
+ In summary, **YouTube and TikTok dominate platform engagement**, **Reels and Posts outperform other formats**, **fitness/education/music-related content goes viral**, and **timing (Thursdays, May/October)** plays a crucial role in maximizing engagement.
+
+---
+
+
+### 5. **Timing & Seasonal Trends**
+
+* **May** is the peak month with the highest engagements (445 posts), followed by October (433) and June (432).
+* **Thursday** is the best-performing day for Views (1.87B), followed by Sunday (1.82B) and Friday (1.80B).
+
+**Insight:** Engagement is highest in mid-year (May–June) and late-year (October). Thursdays and weekends are the strongest posting days.
+
+---
+
+### 6. **Top-Performing Post Traits**
+
+* High-engagement posts frequently feature:
+
+  * **Regions:** Germany, UK, Brazil, USA, Australia, India, Canada.
+  * **Content Types:** Reels, Shorts, Live Streams, Posts, and Videos.
+  * **Hashtags:** #Gaming, #Music, #Education, #Comedy, #Tech, #Fitness, #Fashion.
+* These posts achieve average views between **3.2M–3.9M** with consistently high Likes (200K–330K), Shares (50K–65K), and Comments (20K–35K).
+
+**Insight:** Top-performing posts combine strong regional audiences, trending hashtags, and short/interactive content formats to maximize engagement.
+
+---
+
+
+
+##  **Recommendations**
+
+### **1. Platform Strategy**
+
+* **Prioritize YouTube** for long-term content since it leads in **views, likes, and comments**.
+* **Leverage TikTok** for viral reach through **shares**, maximizing trend-driven campaigns.
+* **Use Instagram** to foster community and build brand loyalty with high **likes and shares**.
+* **Maintain Twitter** for real-time engagement and niche audiences.
+
+---
+
+### **2. Content Optimization**
+
+* Focus on **Reels** and **Live Streams**, as they dominate in **views and shares**.
+* Continue producing **Posts** for reliable engagement through **likes**.
+* Use **Shorts and Tweets** strategically for bite-sized, trend-driven content.
+* Balance **entertainment** (Reels, Comedy, Music) with **educational content** (Tech, Education).
+
+---
+
+### **3. Regional Targeting**
+
+* **Invest heavily in the USA, Brazil, and UK** — the top three regions by views.
+* Explore **emerging markets** (India, Australia, Germany, Japan) where audience activity is growing.
+* Localize content by tailoring **language, cultural relevance, and timing** per region.
+
+---
+
+### **4. Hashtag Strategy**
+
+* Anchor campaigns around **#Fitness and #Education** — the strongest performers.
+* Blend with **entertainment hashtags** (#Music, #Comedy, #Fashion).
+* Participate in **trending challenges** (#Challenge, #Dance, #Viral) to drive shareability.
+* Use **tech-related hashtags** (#Tech, #Gaming) for niche audiences.
+
+---
+
+### **5. Timing & Scheduling**
+
+* Post **more frequently on Thursdays, Sundays, and Fridays** to match peak activity.
+* Align campaigns with **high-engagement months**: May, October, and June.
+* Maintain consistent posting to cover steady mid-week and mid-year performance.
+
+---
+
+### **6. Best Practices from Top Posts**
+
+* Combine **high-quality visuals** with **trending hashtags** for maximum engagement.
+* Mix **educational + entertainment themes** (e.g., Tech tutorials with trending music).
+* Encourage **audience participation** (challenges, comments, shares).
+* Monitor top-performing formats (Reels, Live Streams, Posts) and replicate successful patterns.
+
+---
+
+
+
+## **Overall Conclusion**
+
+This analysis reveals that maximizing social media engagement requires a **strategic, data-driven approach** that integrates platforms, content types, regions, timing, and hashtags.
+
+* **YouTube, TikTok, and Instagram** emerge as the strongest platforms, each excelling in different aspects of engagement (views, shares, likes, and comments).
+* **Reels, Live Streams, and Posts** prove to be the most impactful content formats, striking a balance between virality and sustained audience interest.
+* **USA, Brazil, and the UK** dominate audience engagement, with emerging opportunities in India, Australia, Germany, and Japan.
+* Hashtags such as **#Fitness, #Education, #Music, and #Gaming** drive massive reach, with challenge- and trend-based tags fueling viral potential.
+* Engagement patterns show that **specific days (Thursdays, Sundays, Fridays)** and **mid-year months (May, October, June)** consistently deliver peak results.
+* Finally, top-performing posts share common traits: **high-quality visuals, strong regional relevance, popular hashtags, and interactive formats**.
+
+**In conclusion**, brands, creators, and marketers can significantly improve their reach and influence by aligning strategies with these insights. Success lies in leveraging the **right platform for the right content**, targeting **the right audience at the right time**, and consistently **replicating the winning traits of top-performing posts**.
+
+---
+
+
+
+
+
+
+
+
